@@ -1,0 +1,234 @@
+.Body{
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    display: flex;
+    margin-top:30px;
+    margin-bottom:30px
+
+}
+.Form_Maincontainer {
+    height: auto;
+    width: 60%;
+    background-color: rgba(21, 98, 143, 0.5);
+    box-shadow: 0 4px 4px 0 #0000008f;
+    border-radius: 10px;
+    backdrop-filter: blur(24px);
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+  }
+  .Form_Fields {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    place-items: center;
+  }
+  .Form_Heading {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .Form_Formandcontent {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Form_Fieldsstart {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .form_modal{
+    /* width:800px; */
+    display: flex;
+    justify-content: center;
+    /* background-color: #fff; */
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    background-size: cover;
+    /* margin-left: 25%; */
+    /* height: 355px; */
+    padding: 6%;
+    width: 700px;
+    height: 270px;
+    margin-left: -7%;
+  }
+  .close
+  {
+    color: black;
+    font-size: 40px;
+    /* float: right; */
+    cursor: pointer;
+      position: absolute;
+      display: block;
+      padding: 2px 5px;
+      line-height: 20px;
+      right: -30px;
+      top: 0px;
+      font-size: 24px;
+      background: #ffffff;
+      border-radius: 18px;
+      /* border: 1px solid #cfcece; */
+  /* display: none; */
+  }
+  .Form_popuptext
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    color: white;
+    /* padding:6%; */
+  }
+  .Form_popupheader
+  {
+    font-size: 40px;
+    font-family: GothamNarrowBoldItalic;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .Form_popupcontent
+  {
+    font-size: 25px;
+    font-family: GothamNarrowBook;
+    padding: 8px 0 8px 0;
+  }
+  .Form_errormsg
+  {
+    height: 12px;
+    margin-top: -5px;
+    font-size: 14px;
+  }
+ 
+
+  .Form_phonenumber {
+    display: flex;
+    flex-direction: row;
+    height: 33px;
+    padding-bottom: 1%;
+  }
+  
+  .Form_phone-number_vertical_line{
+    width: 0.5px;
+    height: 80%;
+    color: black;
+    background-color: rgb(41, 40, 40);
+  }
+
+  .Form_heading_stylings{
+    font-size: 20px;
+  font-family:GothamNarrowMedium;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(24, 16, 16);
+  font-weight: bold;
+  }
+  .Form_selecttag {
+    display: block;
+    height: 33px;
+    outline: none;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    /* border-radius: 0px !important; */
+    box-shadow: none;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+    font-size: 15px;
+    flex-shrink: 1;
+    padding-left: 1%;
+    width: 60px;
+  }
+  
+  .Form_question {
+    font-size: 17px;
+    font-family: GothamNarrowMedium;
+    color: #141313;
+  }
+  .Form_sup_text{
+      font-size: 12px;
+  }
+  .Form_Radio {
+    padding-top: 1%;
+    display: flex;
+  }
+  .Form_radio {
+    margin-right: 5%;
+  }
+  .Form_finalcontent {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 12px;
+    /* font-family: GothamNarrow; */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Form_firstcontent {
+    font-size: 12px !important;
+    font-family: GothamNarrowBook !important;
+    color: #ffffff;
+  }
+  
+  .Form_firstcontent1 {
+    font-size: 12px !important;
+    font-family: GothamNarrowBook !important;
+    color: #ffffff;
+    padding-bottom: 5%;
+  }
+  .Form_buttonpart
+  {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+  width: auto;
+  }
+  
+  .Form_button1
+  {
+    margin-top: 5%;
+    cursor: pointer;
+    padding: 9px 10px;
+    text-align: center;
+     text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #f36f21;
+    color: white;
+    font-size: 15px;
+    font-family: GothamNarrowBook;
+    border: none;
+    /* border-color: #f36f21;  */
+  }
+  .Form_button2
+  {
+    cursor: pointer;
+    padding: 5px 10px;
+    text-align: center;
+     text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #F1A119;
+    color: white;
+    font-size: 15px;
+    font-family: GothamNarrowBook;
+    border: none;
+    /* border-color: #F1A119;  */
+    display: none;
+  } 
+  .Form_button_icon{
+    padding: 1%;
+    padding-top: 2%;
+    padding-right:3% ;
+  }
+  .Form-buttonpart
+  {
+  display: none;
+  }
